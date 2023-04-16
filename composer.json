@@ -1,21 +1,21 @@
 {
-    "name": "denis660/laravel-centrifugo",
+    "name": "alekla/laravel-centrifugo",
     "type": "library",
     "description": "Centrifugo broadcaster for laravel 6.20.26-8 and Centrifugo >= 2.8.1",
     "keywords": ["laravel-broadcaster","broadcaster", "laravel", "centrifugo", "web socket", "web-socket", "socket", "real time"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Denis Zakharenko",
-            "email": "amx-serv@ya.ru",
+            "name": "alekla TEST",
+            "email": "alekla@ya.ru",
             "role": "Creator"
         }
     ],
-    "homepage": "https://github.com/denis660/laravel-centrifugo",
+    "homepage": "https://github.com/alekla/laravel-centrifugo",
     "support": {
-        "email": "amx-serv@ya.ru",
-        "issues": "https://github.com/denis660/laravel-centrifugo/issues",
-        "source": "https://github.com/denis660/laravel-centrifugo"
+        "email": "alekla@ya.ru",
+        "issues": "https://github.com/alekla/laravel-centrifugo/issues",
+        "source": "https://github.com/alekla/laravel-centrifugo"
     },
     "require": {
         "php": "^7.4|^8.0",
@@ -28,18 +28,18 @@
     },
     "autoload": {
         "psr-4": {
-            "denis660\\Centrifugo\\": "src/"
+            "alekla\\Centrifugo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "denis660\\Centrifugo\\Test\\": "tests/"
+            "alekla\\Centrifugo\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "denis660\\Centrifugo\\CentrifugoServiceProvider"
+                "alekla\\Centrifugo\\CentrifugoServiceProvider"
             ]
         }
     },
